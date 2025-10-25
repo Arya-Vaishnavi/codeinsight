@@ -7,7 +7,7 @@ It uses **React** for the frontend, **Express + OpenAI API** for the backend, an
 
 ## 🚀 Live Demo
 
-codeinsight-live.vercel.app
+https://codeinsight-live.vercel.app/
 
 ---
 
