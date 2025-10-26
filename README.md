@@ -28,4 +28,4 @@ https://codeinsight-live.vercel.app/
 
 ## 👩‍💻 Author
 
-Vaishnavi Arya https://www.linkedin.com/in/vaishnavi-arya-ai/
+Vaishnavi Arya https://www.linkedin.com/in/vaishnavi-arya-20v25/
