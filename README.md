@@ -26,6 +26,8 @@ https://codeinsight-live.vercel.app/
 **Backend:** Node.js, Express, OpenAI API  
 **Deployment:** Vercel (Frontend), Render (Backend)
 
+---
+
 ## 👩‍💻 Author
 
 Vaishnavi Arya https://www.linkedin.com/in/vaishnavi-arya-20v25/
