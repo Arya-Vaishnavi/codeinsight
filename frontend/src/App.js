@@ -19,9 +19,9 @@ function App() {
       const res = await axios.post(`${backendUrl}/api/explain`, { code });
       setExplanation(res.data.explanation);
     } catch (err) {
-      console.error("❌ Backend Error:", err);
+      console.error("Backend Error:", err);
       setExplanation(
-        "❌ Error: " +
+        "Error: " +
           (err.response?.data?.error?.message || err.message || "Unknown error")
       );
     } finally {
@@ -33,7 +33,7 @@ function App() {
     <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-slate-900">
       <div className="w-full max-w-3xl bg-slate-800 p-8 rounded-2xl shadow-lg border border-slate-700">
         <h1 className="text-3xl font-bold text-center mb-6 text-cyan-400">
-          💡 CodeInsight — AI Code Summarizer
+          CodeInsight — AI Code Summarizer
         </h1>
 
         <textarea
@@ -61,7 +61,7 @@ function App() {
         {explanation && (
           <div className="mt-8 bg-slate-950 border border-slate-700 rounded-xl p-6 text-slate-200 whitespace-pre-wrap">
             <h2 className="text-xl font-semibold text-cyan-400 mb-3">
-              🧩 Explanation:
+              Explanation:
             </h2>
             <p className="leading-relaxed">{explanation}</p>
           </div>
@@ -69,7 +69,7 @@ function App() {
       </div>
 
       <footer className="mt-8 text-slate-500 text-sm">
-        Built with 💙 using React + OpenAI
+        By Vaish Arya
       </footer>
     </div>
   );
