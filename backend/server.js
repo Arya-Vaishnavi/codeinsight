@@ -31,14 +31,14 @@ app.post("/api/explain", async (req, res) => {
 
     res.json({ explanation: response.choices[0].message.content });
   } catch (error) {
-    console.error("🔥 Full Error:", error);
+    console.error("Full Error:", error);
     res.status(500).json({
       error: error.response?.data || error.message || "Failed to generate explanation.",
     });
   }
 });
 
-app.get("/", (req, res) => res.send("✅ Backend is live"));
+app.get("/", (req, res) => res.send("Backend is live"));
 
 const PORT = process.env.PORT || 10000;
-app.listen(PORT, () => console.log(`✅ Backend running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Backend running on port ${PORT}`));
